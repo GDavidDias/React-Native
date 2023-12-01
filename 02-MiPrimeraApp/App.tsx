@@ -4,6 +4,8 @@ import { ContadorScreen } from './src/screens/ContadorScreen';
 import { BoxObjectModelScreen } from './src/screens/BoxObjectModelScreen';
 import { SafeAreaView } from 'react-native';
 import { DimensionesScreeen } from './src/screens/DimensionesScreeen';
+import { PositionScreen } from './src/screens/PositionScreen';
+import { FlexScreen } from './src/screens/FlexScreen';
 
 const App = () => {
   return (
@@ -12,7 +14,9 @@ const App = () => {
        {/* <HolaMundoScreens />
       <ContadorScreen /> */}
       {/* <BoxObjectModelScreen /> */}
-      <DimensionesScreeen/>
+      {/* <DimensionesScreeen/> */}
+      {/* <PositionScreen/> */}
+      <FlexScreen/>
 
     </SafeAreaView>
   )
