@@ -15,8 +15,7 @@ export const styles = StyleSheet.create({
         color: 'white',
         fontSize: 60,
         textAlign: 'right',
-        //margin: 10,
-//        fontWeight: 'bold',
+        marginBottom:10,
 
     },
     resultadoPequeno:{
